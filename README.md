@@ -35,59 +35,83 @@ Multi-Client-Chat-Application/
 👤 Client 2 ──┼──> 🖥️ Chat Server ──> 💬 Broadcast Messages
 👤 Client 3 ──┘
 ```
-The server runs on port 5000 and creates a separate thread for each connected client.
+The server runs on **port 5000** and creates a separate thread for each connected client.
 
-🚀 How to Run
-1️⃣ Clone the Repository
+## 🚀 How to Run
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/Tanishkaa2/Multi-Client-Chat-Application.git
 cd Multi-Client-Chat-Application
-2️⃣ Compile the Project
+```
+### 2️⃣ Compile the Project
+
+```bash
 javac ChatServer.java ChatClient.java
-3️⃣ Start the Server
+```
+
+### 2️⃣ Start the Server
+
+```markdown
+### 3️⃣ Start the Server
+
+```bash
 java ChatServer
+```
 
-Expected output:
+### 3️⃣ Start the Clients
 
-Server started...
-4️⃣ Start the Clients
+```markdown
+### 4️⃣ Start the Clients
 
 Open separate terminals and run:
 
+```bash
 java ChatClient
+```
 
-Enter a username when prompted:
+### 4️⃣ Example
 
-Enter your name:
-Tan
+```markdown
+## 💬 Example
 
-Open additional terminals and run the client again to connect multiple users.
-
-💬 Example
+```text
 Tan: Hello everyone!
 Alice: Hi Tan!
 Bob: Hey everyone!
-🔧 Configuration
+```
+### 5️⃣ Configuration
+
+```markdown
+## 🔧 Configuration
 
 The client connects to the server using:
 
+```java
 String serverAddress = "127.0.0.1";
 int port = 5000;
+```
 
-127.0.0.1 is used when the server and clients are running on the same computer.
+### 6️⃣ Future Improvements
 
-For clients on another computer, replace 127.0.0.1 with the server computer's IP address.
+```markdown
+## 🔮 Future Improvements
 
-🔮 Future Improvements
-🎨 Graphical User Interface
-🔐 User Authentication
-💌 Private Messaging
-💾 Chat History
-📁 File Sharing
-🔒 Message Encryption
-👩‍💻 Author
+- 🎨 Graphical User Interface
+- 🔐 User Authentication
+- 💌 Private Messaging
+- 💾 Chat History
+- 📁 File Sharing
+- 🔒 Message Encryption
+```
 
-Tanishkaa2
+## 👩‍💻 Author
+
+**Tanishkaa2**
 
 🔗 GitHub: https://github.com/Tanishkaa2
+
+---
 
 ⭐ If you found this project useful, consider starring the repository!
