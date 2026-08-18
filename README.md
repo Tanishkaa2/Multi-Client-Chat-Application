@@ -51,27 +51,24 @@ cd Multi-Client-Chat-Application
 javac ChatServer.java ChatClient.java
 ```
 
-### 2️⃣ Start the Server
+###  3️⃣ Start the Server
 
 ```markdown
-### 3️⃣ Start the Server
 
 ```bash
 java ChatServer
 ```
 
-### 3️⃣ Start the Clients
-
-```markdown
 ### 4️⃣ Start the Clients
 
+```markdown
 Open separate terminals and run:
 
 ```bash
 java ChatClient
 ```
 
-### 4️⃣ Example
+### 5️⃣  Example
 
 ```markdown
 ## 💬 Example
@@ -81,7 +78,7 @@ Tan: Hello everyone!
 Alice: Hi Tan!
 Bob: Hey everyone!
 ```
-### 5️⃣ Configuration
+###  6️⃣ Configuration
 
 ```markdown
 ## 🔧 Configuration
@@ -93,7 +90,7 @@ String serverAddress = "127.0.0.1";
 int port = 5000;
 ```
 
-### 6️⃣ Future Improvements
+### 7️⃣ Future Improvements
 
 ```markdown
 ## 🔮 Future Improvements
